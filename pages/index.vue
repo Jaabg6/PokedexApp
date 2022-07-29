@@ -1,44 +1,33 @@
 <template>
-  <div>
-    <Navbar />
-    <h1>Client: {{ this.statusClient }} server: {{ this.statusServer}}</h1>
-    <h1>VUEX {{ vx.products }}</h1>
-  </div>
+    <div>
+        <NavbarMain />
+        <Header-Home />
+        <Favorites />
+        <Footer />
+    </div>
 
 </template>
 
 <script>
-import Navbar from "../components/Navbar/Navbar.vue";
 export default {
     name: "IndexPage",
+    head(){
+        return {
+            title: 'Pokedex App | Home',
+            meta: [
+                {
+                hid: 'description',
+                name: 'description',
+                content: 'Search for Pokemon by name or by number and see their stats and abilities. Add Pokemon to your favorites list. Look at the random page to see a random Pokemon.'
+                },
+            ]
+        }
+    },
     data() {
         return {
-            statusClient: "Connecting...",
-            statusServer: "Connecting...",
-            products: ["potato", "carrot", "tomato"],
-            store: this.$store,
-            vx: this.$store.state,
         };
     },
     mounted() {
-        this.socket = this.$nuxtSocket({
-            name: "main", // select "main" socket from nuxt.config.js - we could also skip this because "main" is the default socket
-        });
-
-        this.store.commit('setProducts', (this.products));
-
-
-        this.socket.on("connect", () => {
-            this.statusClient = "Connected";
-            this.socket.on("statusServerConnect", (data) => {
-                this.statusServer = data;
-            });
-
-            this.socket.on("event-frontend" , (data) => {
-                this.statusServer = "Connected";
-            });
-        });
     },
-    components: { Navbar }
 }
 </script>
