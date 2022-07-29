@@ -153,6 +153,7 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 My Name - [Javier Arcila](https://www.linkedin.com/in/javier-arcila-243221237/)
+My Portfolio - [Portfolio](https://javierarcila.firebaseapp.com/)
 
 Project Link: [https://github.com/Jaabg6/PokedexApp#about-the-project](https://github.com/Jaabg6/PokedexApp#about-the-project)
 
