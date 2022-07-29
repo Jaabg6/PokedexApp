@@ -206,7 +206,12 @@ export default {
     // if(this.pokemonFavorites.length > 0){
       this.$store.commit('fetchPokemonsFavorites')
     // }
-      this.getPokemon(this.PokemonsFavorites[0].id || 1 ) // get the first pokemon
+    if(this.$store.state.pokemonFavorites.length > 0){
+      this.getPokemon(this.PokemonsFavorites[0].id ) // get the first pokemon
+    }
+    else{
+      this.getPokemon(1)
+    }
 
  },
  methods:{
