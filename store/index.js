@@ -37,6 +37,7 @@ export const mutations = {
         state.errorFavorites = false;
     },
     fetchPokemonsFavorites(state) {
+        
         state.PokemonsFavorites = JSON.parse(localStorage.getItem('Favs')) || [];
     },
     removeFromFavorites(state, pokemon) {
