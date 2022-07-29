@@ -67,7 +67,7 @@ module.exports = {
       lang: 'en',
     },
     icon: {
-      iconSrc: './static/pokeball.png',
+      iconSrc: '/pokeball.png',
     },
     meta: {
       name: 'Pokédex Searcher',
@@ -80,7 +80,7 @@ module.exports = {
         title: 'Pokédex Searcher',
         description: 'Search for Pokémon by name or number',
         url: 'https://pokedex-searcher.herokuapp.com/',
-        image: './static/pokeball.png',
+        image: '/pokeball.png',
       },
 
     
