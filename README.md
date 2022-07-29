@@ -211,6 +211,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
 [Tailwindcss.com]: https://tailwindcss.com/
-[Tailwindcss]: https://tailwindcss.com/
+[Tailwindcss]: https://img.shields.io/badge/-Tailwind-blue?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
