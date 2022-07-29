@@ -1,7 +1,7 @@
 module.exports = {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'awesome-stater-nuxt',
+    title: 'Pokédex Searcher ',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -45,7 +45,7 @@ module.exports = {
         name: "main", // give it a name that we can later use to choose this socket in the .vue file
         url:
           process.env.NODE_ENV === "production"
-            ? "https://nuxt-express-socket.herokuapp.com"
+            ? "https://pokedex-searcher.herokuapp.com/"
             : "http://localhost:3000",
       },
     ],
@@ -60,8 +60,32 @@ module.exports = {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'Pokédex Searcher',
+      short_name: 'Pokédex',
+      start_url: "/",
+      display: 'standalone',
       lang: 'en',
     },
+    icon: {
+      iconSrc: './static/pokeball.png',
+    },
+    meta: {
+      name: 'Pokédex Searcher',
+      description: 'Search for Pokémon by name or number',
+      theme_color: '#f5f5f5',
+      lang: 'en',
+      og: {
+        type: 'website',
+        locale: 'en_US',
+        title: 'Pokédex Searcher',
+        description: 'Search for Pokémon by name or number',
+        url: 'https://pokedex-searcher.herokuapp.com/',
+        image: './static/pokeball.png',
+      },
+
+    
+    }
+
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
