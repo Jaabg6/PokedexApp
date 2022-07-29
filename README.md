@@ -95,11 +95,11 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list any major frameworks/libraries used to Tailwindcss your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Nuxt][Nuxt.js]][Nuxt-url]
 * [![Vue][Vue.js]][Vue-url]
-* [![Tailwindcss][Tailwindcss.com/]][Bootstrap-url]
+* [![Tailwind][Tailwindcss]][Tailwindcss-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -210,7 +210,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [Svelte-url]: https://svelte.dev/
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
-[Tailwindcss.com]: https://tailwindcss.com/
+[Tailwindcss-url]: https://tailwindcss.com/
 [Tailwindcss]: https://img.shields.io/badge/-Tailwind-blue?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
