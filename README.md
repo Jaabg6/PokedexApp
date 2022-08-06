@@ -176,7 +176,7 @@ Project Link: [https://github.com/Jaabg6/PokedexApp#about-the-project](https://g
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://pokedex-searcher.herokuapp.com//blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: [https://linkedin.com/in/othneildrew](https://www.linkedin.com/in/javier-arcila-243221237/)
+[linkedin-url]: https://www.linkedin.com/in/javier-arcila-243221237
 [product-screenshot]: https://i.imgur.com/9zZ5Ldm.png?1
 [Nuxt.js]: https://img.shields.io/badge/nuxt.js-000000?style=for-the-badge&logo=nuxtdotjs&logoColor=white
 [Nuxt-url]: https://nuxtjs.org/
